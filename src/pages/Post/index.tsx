@@ -1,5 +1,9 @@
+import { PostInfos } from './components/PostInfos'
+
 export function PostPage() {
   return (
-    <h1>Posts</h1>
+    <div className="container">
+      <PostInfos />
+    </div>
   )
 }

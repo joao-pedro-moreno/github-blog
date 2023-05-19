@@ -59,15 +59,3 @@ export const SimpleInfosContainer = styled.div`
   display: flex;
   gap: 1.5rem;
 `
-
-export const InfoWithIconContainer = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-
-  color: ${({ theme }) => theme['base-subtitle']};
-
-  svg {
-    color: ${({ theme }) => theme['base-label']};
-  }
-`

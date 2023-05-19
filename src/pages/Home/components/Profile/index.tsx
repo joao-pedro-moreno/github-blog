@@ -10,7 +10,7 @@ import {
   ProfileNameContainer,
   SimpleInfosContainer,
 } from './styles'
-import { InfoWithIcon } from './InfoWithIcon'
+import { InfoWithIcon } from '../../../../components/InfoWithIcon'
 
 export function Profile() {
   return (
