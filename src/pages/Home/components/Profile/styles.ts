@@ -47,6 +47,10 @@ export const ProfileNameContainer = styled.div`
     color: ${({ theme }) => theme.blue};
     font-size: 0.75rem;
     font-weight: 700;
+
+    &:hover {
+      border-bottom: 1px solid ${({ theme }) => theme.blue};
+    }
   }
 `
 
